@@ -23,4 +23,5 @@ The application dynamically generates a HTML team profile webpage that contain s
 ## Screenshot of Team Profile Generator
 
 ![screenshot1](./src/images/teampropic.PNG)
+### Test Results
 ![screenshot2](./src/images/testresults.PNG)
