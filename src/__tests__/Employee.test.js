@@ -15,5 +15,5 @@ it("sets the name, id & email of the employee",() => {
 it("gets the role", () => {
     const employee = new Employee("Marcus",2,"marcuslau@gmail.com")
     expect(employee.getRole()).toBe("Employee")
-} )
+})
 })

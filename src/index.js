@@ -1,12 +1,12 @@
 const inquirer = require("inquirer") 
 const fs  = require("fs")
-// const path = require("path")
+const path = require("path")
 const Manager = require("./lib/Manager")
 const Intern = require("./lib/Intern")
 const Engineer = require("./lib/Engineer")
 const {generateManagerCard,generateEngineerCard,generateInternCard,generateMainHtml} = require("./util/HTML")
-// const outputDirectory = path.resolve(__dirname, "dist")
-// const outputPath = path.join(outputDirectory, "team.html");
+const outputDirectory = path.resolve(__dirname, "dist")
+const outputPath = path.join(outputDirectory, "team.html");
 let inProgress = true
 const team = []
 
@@ -152,7 +152,7 @@ while(inProgress) {
 }
 team.join("")
 const mainHtml = generateMainHtml(team)
-writeToFile(mainHtml)
+writeToFile(mainHtml, outputPath)
 }
 
 init()
