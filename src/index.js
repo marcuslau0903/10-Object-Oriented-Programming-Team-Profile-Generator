@@ -145,6 +145,7 @@ const writeToFile = (team) => {
 console.log("html generated")
 fs.writeFileSync("team.html",team)
 }
+
 const init = async () => {
 while(inProgress) {
     await prompt()
