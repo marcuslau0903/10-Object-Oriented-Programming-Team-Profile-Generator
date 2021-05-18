@@ -20,3 +20,6 @@ The application dynamically generates a HTML team profile webpage that contain s
 ## Link to Github repository
 [click here](https://github.com/marcuslau0903/09-Node.js-Homework-Professional-README-Generator/blob/master/Develop/GeneratedREADME.md)
 
+## Screenshot of Team Profile Generator
+
+![sceenshot](./src/images/teampropic.PNG)
