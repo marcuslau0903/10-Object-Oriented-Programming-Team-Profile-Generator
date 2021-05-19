@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1621365496165" clover="3.2.0">
-  <project timestamp="1621365496165" name="All files">
+<coverage generated="1621437179842" clover="3.2.0">
+  <project timestamp="1621437179842" name="All files">
     <metrics statements="24" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="10" elements="38" coveredelements="30" complexity="0" loc="24" ncloc="24" packages="1" files="4" classes="4"/>
     <file name="Employee.js" path="C:\Users\User\coding_bootcamp\homework\10-Object-Oriented-Programming-Team-Profile-Generator\src\lib\Employee.js">
       <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>

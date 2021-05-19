@@ -2,7 +2,7 @@
 
 ## Description
 
-The application dynamically generates a HTML team profile webpage that contain summaries of employee information of a software engineering team. The app uses **Inquirer Node.JS** to prompt user questions such as job titles including Manager, Engineer and Intern - followed by specific questions regarding each role. Employee cards are generated & displayed on the webpage based on input collected, (file accessible from the dist folder using **path** module). In addition, the program uses **Jest** as the testing framework for all methods and constructor classes. 
+The application dynamically generates a HTML team profile webpage that contain summaries of employee information of a software engineering team. The app uses **Inquirer Node.JS** to prompt user questions such as job titles including Manager, Engineer and Intern - followed by specific questions regarding each role. Each Employee card is generated & displayed on the webpage based on input collected, (file accessible from the dist folder using **path** module). In addition, the program uses **Jest** as the testing framework for all methods and constructor classes. 
 
 ## Installation
 
