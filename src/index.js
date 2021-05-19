@@ -68,6 +68,7 @@ const createManager = async () => {
     const managerString = generateManagerCard(manager)
     team.push(managerString)
 }
+
 const createEngineer = async () => {
     EngineerQuestions = [
             {
@@ -96,6 +97,7 @@ const createEngineer = async () => {
     const engineerString = generateEngineerCard(engineer)
     team.push(engineerString)
 }
+
 const createIntern = async () => {
     InternQuestions = [
             {
@@ -141,9 +143,9 @@ const prompt = async () => {
         inProgress = false
     }
 }
-const writeToFile = (team) => {
+const writeToFile = (team,path) => {
 console.log("html generated")
-fs.writeFileSync("team.html",team)
+fs.writeFileSync(path,team)
 }
 
 const init = async () => {
