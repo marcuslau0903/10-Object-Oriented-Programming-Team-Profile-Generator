@@ -15,7 +15,7 @@ The application dynamically generates a HTML team profile webpage that contain s
 - Run unit test scripts by inputting `npm run test` on terminal.  
 
 ## Link to Video Demonstration 
-[click here]()
+[click here](https://drive.google.com/file/d/1Jfo6ftzpyKkmtKa6s_ADkXarCoUmoi8B/view)
 
 ## Link to Github repository
 [click here](https://github.com/marcuslau0903/09-Node.js-Homework-Professional-README-Generator/blob/master/Develop/GeneratedREADME.md)
